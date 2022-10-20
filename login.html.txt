@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>Registraion</title>
+        <link rel="stylesheet" href="E:/web/login.css">
+        <!-- <link rel="stylesheet" href="E:/web/index.css"> -->
+        <!-- <link rel="stylesheet" href="E:\internship\internship.css"> -->
+    </head>
+    <body>
+
+
+        <section id="navbar">
+
+            <div class="navbar">
+
+                <div><img class="logo"  src="C:/intern-images/download.jpg" alt="logo"></div>
+                <div class="logo-name"> RoyalOne</div>
+
+                
+
+                <div class="contact">
+                    
+                    <a class="navbar-order" href="">Help</a>
+                    <a class="navbar-order"  href="">About us</a>
+                    <!-- <button class="Login1" type="button"></button> -->
+                </div>
+
+                
+
+            </div>
+
+        </section>
+        
+           <center> <div id="container">
+
+                <form action="mailto:sudansahil01@gmail.com" method="post" enctype="z">
+                    <!-- <label class="info" placeholder="username"></label><br>
+                    <input class="box" type="text" name="name"><br>
+                    <label class="info">Password</label><br>
+                    <input class="box" type="text" name="interest">
+                    <input type="text " placeholder=""> -->
+
+                    <div id="box1"><input class="box1" type="text " placeholder="Username"></div>
+                    <!-- <input class="box2" type="password" placeholder="password"> -->
+                    
+                    <input class="box2" type="password" placeholder="Password">
+                    <a href="E:\web\index.html" target="_blank"><div ><button class="Login" type="button">Login</button></div></a>
+                    <!-- <div>
+                        <tr>
+                            <td> <p class="not-registered">Not registered?</p></td>
+                               <td> <a href="" >Create an account</a></td>
+                        </tr>
+                       
+                    </div> -->
+                    <div class="login-bottom">
+                        <div>
+                           <p class="registered">Not registered?</p>
+                        </div>
+
+                        <div>
+                            <p class="create-account"><a href="" >Create an account</a></p>
+                        </div>
+
+                    </div>
+
+                    <!-- <span>
+                        <p class="not-registered">Not registered?</p>
+                    </span>
+
+                    <span>
+                        <a href="" >Create an account</a>
+                    </span> -->
+
+                    
+
+            </div>
+            
+          </center>
+        
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+

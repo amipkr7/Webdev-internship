@@ -1,0 +1,167 @@
+.logo{
+    width: 50px;
+    padding-left: 10px;
+    
+}
+
+.logo-name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight:bolder;
+    padding-top:15px;
+    color: rgb(124 23 136);
+    /* font-weight: 200; */
+   
+}
+
+a{
+    font-size:larger;
+    padding-right: 10px;
+}
+
+.navbar-order{
+    font-size:24;
+    padding-right: 10px;
+}
+
+.navbar{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    /* padding-bottom: 10px; */
+    box-shadow: 4px 4px rgb(149, 146, 146);
+    /* background-color: hwb(300 17% 1% / 0.961); */
+    background: rgb(100, 164, 248);
+    /* background: linear-gradient(to bottom right, hwb(300 92% 5% / 0.961) 10%, #3b68ee 100%) */
+    
+
+    /* position: fixed; */
+}
+
+.contact{
+    font-weight:800;
+    position: absolute;
+    padding: 25px;
+    right: 10px;
+    top:0px;
+    /* texcolor: rgb(255, 38, 0); */
+    
+}
+
+.Login1{
+
+    /* font-size:large; */
+    
+    font-family: 'Times New Roman', Times, serif;
+   
+    /* font-weight: 400; */
+    /* font-weight:; */
+    font-weight: bolder;
+    background-color: rgb(66, 226, 101);
+    /* width: 20px;
+    height: 20px; */
+    border-radius:10px;
+    border-color: rgb(126, 244, 58);
+    /* border-color: rgb(7, 132, 128); */
+    padding: 4px;
+    
+}
+
+
+body{
+     /* background-image: url("https://thumbs.dreamstime.com/z/background-line-shopping-icons-seamless-vector-simple-black-isolated-white-141638931.jpg");  */
+        
+
+    }
+
+#container{
+    border-style: double;
+    border-color: linear-gradient(to bottom right, hwb(199 17% 1% / 0.961) 10%, #686bfa 100%);
+    padding: 50px;
+    position: absolute;
+    top: 280px;
+    left: 470px;
+    background-color: #edfbff;
+    width: 350px;
+    /* height: 400vh; */
+    
+    /* height: 280px; */
+    box-shadow: 4px 4px 4px 4px rgb(140, 187, 231)
+    
+    /* height: 280px; */
+    
+}
+
+
+
+.Login{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    position:relative;
+    top: 20px;
+    background-color: rgb(75, 182, 245);
+    /* background-color: rgb(117, 243, 236); */
+    
+    width: 250px;
+    height: 30px;
+    /* border-radius:20px; */
+    border-color: rgb(99, 243, 66);
+    border-radius: 10px;
+}
+
+.Login:hover{
+    font-size: 23px;
+    /* font-weight: bold; */
+    /* background-color: rgb(40, 203, 157); */
+    background-color:  rgb(28, 213, 219);
+    /* padding: 5px 50px; */
+}
+
+
+#box1{
+    padding-bottom: 10px;
+}
+
+
+.box1{
+    padding: 15px;
+    position: relative;
+    width: 300px;
+    height: 30px;
+    bottom: 10px;
+}
+
+.box2{
+    /* padding-top: 20px; */
+    padding: 15px;
+    position: relative;
+    width: 300px;
+    height: 30px;
+    bottom: 10px;
+}
+
+
+.registered{
+    font-size: large;
+    padding-top: 3px;
+    padding-left: 20px;
+
+}
+
+.create-account{
+    padding-top: 3px;
+    padding-left: 70px;
+
+}
+
+.create-account:hover{
+    /* color: rgb(247, 9, 68); */
+    color: brown;
+
+}
+
+.login-bottom{
+    display: flex;
+   
+}

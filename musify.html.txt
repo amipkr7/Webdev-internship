@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="E:\web\Musify.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="https://tse1.mm.bing.net/th?id=OIP.Jon_wu_G4GKELpWAYggy9wHaFj&pid=Api&P=0" alt="music">Musify</li>
+            <li>HOME</li>
+            <li>ABOUT</li>
+        </ul>
+    </nav>
+
+
+    <div class="container">
+        
+        <div class="songlist">
+            <h1>Today's Top Hits</h1>
+            <div class="songitemContainer">
+            
+                <div class="songitem">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.JVjFohqs8en_iiSHNrBTOgHaHa&pid=Api&rs=1&c=1&qlt=95&w=109&h=109" alt="1">
+                <span>Let Me Love You</span>
+                <span class="songlistplay"><span class="timestamp">5:30<a href=""><i class="fa-regular fa-1.5x fa-circle-play"></i></a></span></span>
+                </div>
+            
+            
+                <div class="songitem">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.ZZsklB5pTdPGWbO9HaACeAHaEK&pid=Api&P=0" alt="2">
+                <span>Kinna Chir</span>
+                <span class="songlistplay"><span class="timestamp">2:30<i class="fa-regular fa-1.5x fa-circle-play"></i></span></span>
+                </div>
+            
+                <div class="songitem">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.JPLkugGKmwazNGBhRJNUxQHaEK&pid=Api&P=0" alt="3">
+                <span>Ram Ram</span>
+                <span class="songlistplay"><span class="timestamp">1:30<i class="fa-regular fa-1.5x fa-circle-play"></i></span></span>
+                </div>
+            
+                <div class="songitem">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.kutGJ2xjR610RYi9MqlxqQHaEI&pid=Api&P=0" alt="4">
+                <span>Jaadugar</span>
+                <span class="songlistplay"><span class="timestamp">2:40<i class="fa-regular fa-1.5x fa-circle-play"></i></span></span>
+                </div>
+            
+                <div class="songitem">
+                <img src="https://i.ytimg.com/vi/7pJbFRU86iQ/maxresdefault.jpg" alt="5">
+                <span>No Love</span>
+                <span class="songlistplay"><span class="timestamp">3:24<i class="fa-regular fa-1.5x fa-circle-play"></i></span></span>
+                </div>
+            
+                <div class="songitem">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.4C-29XT5D76QpXxKPMnhkAHaHa&pid=Api&P=0" alt="6">
+                <span>Heat Waves</span>
+                <span class="songlistplay"><span class="timestamp">5:30<i class="fa-regular fa-1.5x fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+
+    <div class="bottom">
+        <input type="range" class="range" id="ProgressBar" min="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-3x fa-backward-step"></i>
+       <button onclick="playAudio()" ><i class="fa-regular fa-1.5x fa-circle-play"></i></button> 
+       <button onclick="pauseAudio()" ><i class="fa-regular fa-1.5x fa-circle-play"></i></button> 
+            <i class="fa-solid fa-3x fa-forward-step"></i>
+    </div>
+    <div class="songInfo">
+        <img src="https://gifimage.net/wp-content/uploads/2017/06/music-gif-2.gif" width="42px" alt="">   
+    </div>
+
+
+    <div class="final-footer">
+
+        <div>
+            
+                <p>Designer: Poorvansh Gupta<br>
+                <p style="color:white;" >All rights reserved.</p>
+                <p style="color:white;">Royal Movies is the best free streaming site 2022, where you can watch movies online. With a large database and great features, we're confident that Royal Movies is the best free online movie site in the space you just can't miss</p>
+                <a  href="https://royalmovies@homepage">Royal Movies</a>
+                <a href="royalone@homepage">Royal One</a></p>
+        </div>
+
+        <div>
+            <a href="https://www.instagram.com/" class="links"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com" class="links"><i class="fa-brands fa-facebook"></i></i></a>
+        </div>
+
+    </div>
+    <script src="https://kit.fontawesome.com/78a9c666cb.js" crossorigin="anonymous"></script>
+    <script>
+        function playAudio(){
+            var audio = new Audio('./Excuses.mp3');
+                audio.play();
+        }
+    </script>
+</body>
+</html>
+
+
